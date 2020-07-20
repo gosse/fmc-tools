@@ -4,13 +4,13 @@ from fireREST import FireREST
 
 # Set variables for execution.
 # Make sure your credentials are correct.
-device = '10.12.100.36'
-username = 'api-user'
-password = 'api-password'
+device = '192.168.45.45'
+username = 'admin'
+password = 'Admin123'
 # With child domain (note the spacing):
 # domain = 'Global/ NAME-OF-CHILD'
 domain = 'Global'
-ac_policy = 'api-test-policy'
+ac_policy = 'lab-ftdv01'
 
 policyFile = open(ac_policy + ".csv", "w")
 
